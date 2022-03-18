@@ -10,7 +10,7 @@ public class Main {
         String[] input = badInput.split(" ");
         String[] numbers = RandomNumbers.numbers();
         Logic.comparison(numbers, input);
-        System.out.println(Arrays.toString(input));
-        System.out.println(Arrays.toString(numbers));
+        System.out.println("your numbers: " + Arrays.toString(input));
+        System.out.println("the lotto numbers: " + Arrays.toString(numbers));
     }
 }
